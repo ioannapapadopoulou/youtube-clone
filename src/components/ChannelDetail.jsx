@@ -4,7 +4,7 @@ import { Box } from "@mui/material";
 import useStore from "../store";
 import { ChannelCard, Videos } from "./index";
 
-const ChannelDetail = () => {
+export default function ChannelDetail() {
   const { id } = useParams();
 
   const videos = useStore(state => state.videos);
@@ -42,6 +42,4 @@ const ChannelDetail = () => {
       </Box>
     </>
   );
-};
-
-export default ChannelDetail;
+}

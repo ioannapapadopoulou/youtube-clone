@@ -5,7 +5,7 @@ export const params = {
     maxResults: 50,
   },
   headers: {
-    'X-RapidAPI-Key': '92b9280d4cmshbf4db4f750e2341p180fe3jsnc53d84fa880e',
+    'X-RapidAPI-Key': 'f026db61f5msh8cb2cc79d09bb2bp134618jsn1be17456d35a',
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
   },
 };

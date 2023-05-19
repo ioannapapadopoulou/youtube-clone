@@ -34,6 +34,7 @@ const store = create((set) => ({
     } catch (error) {
       set({ error: error.message });
     }
+    
   },
   searchVideos: async (searchTerm) => {
     set({ isLoading: true });
@@ -44,6 +45,7 @@ const store = create((set) => ({
       set({ error: error.message });
     }
   },
+
   getVideoDetail: async (id) => {
     set({ isLoading: true });
     try {
@@ -56,6 +58,7 @@ const store = create((set) => ({
       set({ error: error.message });
     }
   },
+
   getRelatedVideos: async (id) => {
     set({ isLoading: true });
     try {

@@ -9,12 +9,3 @@ export const params = {
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
   },
 };
-
-export const initialState = {
-  data: null,
-  videos: null,
-  channelDetails: null,
-  videoDetail: null,
-  error: null,
-  isLoading: false,
-};
